@@ -424,3 +424,69 @@ progress[value]::-webkit-progress-value {
 .not-exist {
   font-size: 1.5rem;
 }
+
+/* Leaderboard */
+.table {
+  background: var(--color-white);
+  width: 90%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+thead {
+  background: var(--color-gradient);
+}
+
+th {
+  color: var(--color-white);
+  border-bottom: 4px solid var(--color-light);
+  font-size: 1.5rem;
+  padding: 2rem;
+  vertical-align: middle;
+}
+
+th:first-child {
+  border-top-left-radius: 5px;
+}
+
+th:last-child {
+  border-top-right-radius: 5px;
+}
+
+tr {
+  border-top: 1px solid var(--color-light);
+  border-bottom: 1px solid var(--color-light);
+  font-size: 1.2rem;
+}
+
+tr:first-child {
+  border-top: none;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+tr:nth-child(even) {
+  background: var(--color-light);
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius: 5px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius: 5px;
+}
+
+td {
+  padding: 2rem;
+  vertical-align: middle;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+td:last-child {
+  border-right: 0px;
+}
