@@ -1,6 +1,6 @@
 # Would You Rather
 
-[Live Demo](https://f3yvr.csb.app)
+[Live Demo](https://88cu2.csb.app/)
 
 ### About this project
 
